@@ -1,13 +1,12 @@
 # include <stdio.h>
 
 /**
- * main - printing
+ * main - printing the function
  *
- * return: Always 0 (successful)
+ * Return: Always 0 (Successful)
  */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	
 	return (0);
 }
