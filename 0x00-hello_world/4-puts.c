@@ -1,11 +1,12 @@
 # include <stdio.h>
-int main()
+
+/**
+ * main - printing
+ *
+ * return: Always 0 (successful)
+ */
+int main(void)
 {
-	/* my first c program */
-
-     puts("\"Programming is like building a multilingual puzzle");
-    
-     getch ();
-
-     return: (0);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
