@@ -1,12 +1,11 @@
-#include <stdio.h>
-
-/**
- * main - entry point
- *
- * Return: 0 after printing the function
- */
-int main(void)
+# include <stdio.h>
+int main()
 {
-	puts("\"Programming is like building a multilingual puzzle");
-	Return (0);
+	/* my first c program */
+
+     puts("\"Programming is like building a multilingual puzzle");
+    
+     getch ();
+
+     return: (0);
 }
