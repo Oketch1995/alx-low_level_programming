@@ -11,10 +11,9 @@
 int main(void)
 {
 int b;
-for (int b = '97'; b <= '122';)
+for (b = 'a'; b <= 'z';)
 b++;
-count << c << " ";
-
+putcher(b);
 putchar('\n');
 return (0);
 }
