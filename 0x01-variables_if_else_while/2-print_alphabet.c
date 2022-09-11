@@ -10,10 +10,10 @@
  */
 int main(void)
 {
-char b;
-for (b = 'a'; b <= 'z';)
+int b;
+for (int b = '97'; b <= '122';)
 b++;
-putchar(b);
+count << c << " ";
 
 putchar('\n');
 return (0);
