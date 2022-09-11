@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - Entry point
  * Description: printing alphabets starting from 'a' to 'z' in lowercase
@@ -9,7 +11,7 @@
 int main(void)
 {
 char b = 'a'
-;while (b <= 'z')
+; while (b <= 'z')
 b++;
 putchar(b);
 
