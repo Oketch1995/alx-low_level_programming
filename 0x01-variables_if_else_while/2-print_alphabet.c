@@ -12,6 +12,7 @@ char b;
 for (b = 'a'; b <= 'z';)
 b++;
 putchar(b);
+
 putchar('\n');
 return (0);
 }
