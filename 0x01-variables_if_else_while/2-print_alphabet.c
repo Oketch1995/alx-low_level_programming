@@ -2,19 +2,18 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point
- * Description: printing alphabets starting from 'a' to 'z' in lowercase
- *followed by a new line
- *You can only use the putchar function
- * Return: Always 0 (successful)
+ * main -Entry Point
+ * Description: printing the alphabets 'a - z' in lowercase
+ * return - 0 (successful)
  */
-int main(void)
+int main()
 {
-int b;
-for (b = 'a'; b <= 'z'; b++);
+	char ch;
+	for (ch = 'a'; ch <= 'z'; ch++);
 {
-putchar(b);
+	putchar(ch++);
 }
-putchar('\n');
-return (0);
+        putchar('\n');
+	return (0);
 }
+ 
