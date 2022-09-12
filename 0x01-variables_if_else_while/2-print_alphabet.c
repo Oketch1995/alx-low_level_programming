@@ -3,7 +3,9 @@
 #include <time.h>
 /**
  * main -Entry Point
+ *
  * Description: printing the alphabets 'a - z' in lowercase
+ *
  * return: 0 (successful)
  */
 int main(void)
