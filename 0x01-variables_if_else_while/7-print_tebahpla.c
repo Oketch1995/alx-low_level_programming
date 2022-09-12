@@ -4,7 +4,7 @@
 /**
  * main -entry point
  *
- * description: lowercase alphabet in reverse
+ * description: printing lowercase alphabet in reverse
  *
  * return: always 0 (success)
  */
