@@ -4,11 +4,11 @@
 /**
  *main - entry point
  *
- *decsription: lowercase
- *return: 0 (success)
+ *decsription: print the lowercase
+ *return: always 0 (success)
  *
  */
-int main()
+int main(void)
 {
 char ch;
 for (ch = 'a'; ch <= 'z'; ch++)
