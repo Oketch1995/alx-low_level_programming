@@ -12,7 +12,7 @@ int main(void)
 char ch = 'a';
 while (ch <= 'z')
 {
-printf(ch = "%c", ch);
+printf("%c", ch);
 ch++;
 }
 return (0);
