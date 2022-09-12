@@ -8,9 +8,7 @@
  */
 int main(void)
 {
-{
-code goes here
-}
+/*code goes here*/
 char ch = 'a';
 while (ch <= 'z')
 {
