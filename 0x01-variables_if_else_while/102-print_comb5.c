@@ -1,4 +1,12 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+/**
+ * main - entry point
+ * declaration: 
+ * prints all possible combinations of two two-digit numbers.
+ * return: always0 (success)
+ */
 int b, c, d;
 {
 int b, c, d;
