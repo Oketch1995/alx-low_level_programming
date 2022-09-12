@@ -8,6 +8,9 @@
  */
 int main(void)
 {
+{
+code goes here
+}
 char ch = 'a';
 while (ch <= 'z')
 {
