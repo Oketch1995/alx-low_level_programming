@@ -1,10 +1,7 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
  * main - entry point
- * declaration: 
- * prints all possible combinations of two two-digit numbers.
+ * declaration:  prints all possible combinations of two two-digit numbers.
  * return: always0 (success)
  */
 int b, c, d;
@@ -23,11 +20,11 @@ putchar(d);
 if(d=='7'&& p=='8')
 continue;
 putchar(',')
-putchar('');
+putchar(' ');
 }
 }
 }
 }
-putchar('\n');
+putchar("\n");
 return (0);
 }
