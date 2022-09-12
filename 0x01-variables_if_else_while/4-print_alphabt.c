@@ -10,12 +10,12 @@
  */
 int main(void)
 {
-char velma;
-for (velma = 'a'; velma <= 'z'; velma++)
+char ch;
+for (ch = 'a'; ch <= 'z'; ch++)
 {
-if (velma!= 'e' && velma!= 'q')
+if (ch != 'e' && ch != 'q')
 {
-putchar(velam);
+putchar(ch);
 }
 }
 putchar('\n');
