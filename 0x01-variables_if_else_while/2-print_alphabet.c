@@ -2,7 +2,7 @@
 /**
  * main -Entry Point
  *
- i* return: 0 (successful)
+ *return: 0 (successful)
  */
 
 int main(void)
@@ -12,5 +12,5 @@ char ch = 'a'
 putchar (ch);
 ch++;
 }
-'('return (0);
+return (0);
 }
