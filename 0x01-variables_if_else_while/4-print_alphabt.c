@@ -5,7 +5,7 @@
  * main - entry point
  *
  *decsription: print the lowercase
- *return: always 0 (success)
+ *Return: Always 0 (success)
  *
  */
 int main(void)
@@ -19,5 +19,5 @@ putchar(ch);
 }
 }
 putchar('\n');
-return 0;
+return (0);
 }
