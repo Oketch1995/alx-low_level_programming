@@ -2,15 +2,16 @@
 /**
  * main -Entry Point
  *
- *return: 0 (successful)
+ *Return: 0 (successful)
  */
 
 int main(void)
 {
 char ch = 'a'
-;while (ch <= 'z')
-putchar (ch);
+while (ch <= 'z')
+putchar(ch);
 ch++;
+putchar('\n');
 }
 return (0);
 }
