@@ -9,8 +9,8 @@
 int main(void)
 {
 int c;
-c = 48;
-while (c <= 57)
+c = 23;
+while (c <= 32)
 {
 putchar(c);
 c++;
