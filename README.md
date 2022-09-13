@@ -1,1 +1,1 @@
-This is my C programming project
+This is my hello world project
