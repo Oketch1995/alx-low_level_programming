@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *main - entry point
+ * main - entry point
  *
  *decsription: print the lowercase
  *return: always 0 (success)
