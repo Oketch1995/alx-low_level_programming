@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-_putchar(char * "_");
-_putchar(char * "p");
-_putchar(char * "-");
+_putchar("_");
+_putchar("p");
+_putchar("-");
 _putchar("t");
 _putchar("c");
 _putchar("h");
