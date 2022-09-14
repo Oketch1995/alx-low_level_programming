@@ -2,8 +2,8 @@
 
 /**
  *
- * main - check the code.
- *
+ * main - entry point
+ *Declaration: prints 10 times the alphabet, in lowercase,
  * Return: Always 0.
  *
  */
