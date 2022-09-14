@@ -1,19 +1,18 @@
 #include "main.h"
 /**
+ * print_alphabet_x10 - function to print abc 10 times
  *
- *print_alphabet_x10 - entry poinit
- *Declaration: prints 10 times the alphabet, in lowercase,
- * Return: Always 0.
- *
+ * Return: 0
  */
-int print_alphabet(void);
+void print_alphabet(void);
 {
 char c, i;
-for (i = 0; i <=9; i++)
+for (i = 0; i <= 9; i++)
 {
 for (c = 'a'; c <= 'z'; c++)
 {
 _putchar(c);
 }
 _putchar('\n');
+}
 }
