@@ -2,7 +2,7 @@
 
 /**
  *
- * main - entry point
+ *print_alphabet_x10 - entry poinit
  *Declaration: prints 10 times the alphabet, in lowercase,
  * Return: Always 0.
  *
