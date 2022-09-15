@@ -1,5 +1,5 @@
 #include "main.h"
-#include <dtdio.h>
+#include <stdio.h>
 
 /**
  * print_diagonal - print a diagonal
