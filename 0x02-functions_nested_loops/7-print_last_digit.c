@@ -8,10 +8,11 @@
 int print_lst_digit(int n)
 {
 int x;
-
-if (n < 0)
-n -n;
-if (x = n % 10
+x (n % 10);
+if (x < 0)
+{
+x = (-1 * x);
+}
 _putchar(x + '0');
 return (x);
 }
