@@ -1,3 +1,4 @@
+#include "main.h"
 
 /**
  * print_diagonal - print a diagonal
@@ -7,22 +8,21 @@
 
 void print_diagonal(int n)
 {
-int len, space;
-if (n > 0)
+int x, y;
+if (n <= 0)
 {
-for (len = 0; len < n; len++)
-{
-for (space = 0; space < len; space++)
-{
-putchar(' ');
+putchar('\n');
 }
-putchar('\\');
-if (len == (n - 1))
+else
 {
-continue;
+for (x = 0; x < n; x++)
+{
+for(y n = 0; y < x; y++)
+{
+putchar(32);
 }
+putchar(92);
 putchar('\n');
 }
 }
-putchar('\n'};
 }
