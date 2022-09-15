@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * main -  Entry point
+ * _islower - unction that checks for lowercase character
  *
- * Description: function to check for a lowercase character
  *
- * gcc -Wall -pedantic -Werror -Wextra -std=gnu89
+ *@c: Is the integer that will use for argument
  *
  * Return: Always 0
  */
