@@ -7,21 +7,21 @@
 
 void print_triangle(int size)
 {
-	int alex, jero;
+	int j, k;
 
 	if (size > 0)
 	{
-		for (alex = 1; alex <= size; alex++)
+		for (j = 1; j <= size; j++)
 		{
-			for ((jero = size - alex); jero > 0; jero--)
+			for ((k = size - k); k > 0; k--)
 			{
 				_putchar(' ');
 			}
-			for (jero = 0;  jero < alex; jero++)
+			for (k = 0; k < j; k++)
 			{
 				putchar('#');
 			}
-				if (alex == size)
+				if (j == size)
 				{
 					continue;
 				}
