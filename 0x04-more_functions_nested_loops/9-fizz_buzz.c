@@ -7,7 +7,7 @@
  * Return: 0
  */
 
-void Fizz_Buzz(void)
+int main(void)
 {
 	int m;
 	for (m = 1; m <= 100; m++)
