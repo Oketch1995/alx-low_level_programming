@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * Fizz_Buzz - program that prints either number
+ * main - program that prints either number
  * or fizz, or buzz or fizzbuzz, 1 to 100
  * Return: 0
  */
@@ -10,8 +10,9 @@
 int main(void)
 {
 	int m;
+
 	for (m = 1; m <= 100; m++)
-	{	
+	{
 		if (m % 3 == 0 && m % 5 != 0)
 		{
 			printf(" Fizz");
