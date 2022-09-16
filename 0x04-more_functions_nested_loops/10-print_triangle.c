@@ -20,12 +20,13 @@ void print_triangle(int size)
 			for (jero = 0;  jero < alex; jero++)
 			{
 				putchar('#');
+			}
 				if (alex == size)
 				{
 					continue;
 				}
-			putchar('\n');
+				putchar('\n');
 		}
 	}
-		putchar('\n');
+	putchar('\n');
 }
