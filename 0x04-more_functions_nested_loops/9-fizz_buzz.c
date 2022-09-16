@@ -1,32 +1,31 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
- * main - program that prints either bnumber
- * or fizz, or buzz or fizzbuzz
+ * Fizz_Buzz - program that prints either number
+ * or fizz, or buzz or fizzbuzz, 1 to 100
  * Return: 0
  */
-int main(void)
+
+void Fizz_Buzz(void)
 {
-int num = 1;
-while (num++ < 100)
-if ((num % 3 == 0) && (num % 5 == 0))
+int m;
+for (m = 1; m <= 100; m++)
+if (m % 3 == 0)
+{
+print("Fizz");
+}
+else if (m % 5 == 0)
+{
+printf("Buzz");
+}
+else if (m % 3 == 0 && m % 5 == 0)
 {
 printf("FizzBuzz");
 }
-else if ((num % 3) == 0)
-{
-printf("Fizz");
-}
-else if ((num % 5) == 0)
-{
-if (num != 100)
-{
-printf("Buzz");
-}
 else
 {
-printf("Buzz");
+printf("%d", m);
 }
 return (0);
-}
 }
