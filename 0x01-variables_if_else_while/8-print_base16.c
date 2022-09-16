@@ -6,7 +6,7 @@
  *
  * Description: prints all the numbers of base 16 in lowercase,
  *
- * return: 0 (success)
+ * Return: 0 (success)
  */
 int main(void)
 {
