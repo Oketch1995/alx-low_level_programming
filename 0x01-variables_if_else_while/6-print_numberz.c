@@ -8,13 +8,14 @@
 
 int main(void)
 {
-int c;
-c = 23;
-while (c <= 32)
-{
-putchar(c);
-c++;
-}
-putchar('\n');
-return (0);
+	int c;
+	
+	c = 23;
+	while (c <= 32)
+	{
+		putchar(c);
+		c++;
+	}
+	putchar('\n');
+	return (0);
 }
