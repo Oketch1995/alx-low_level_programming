@@ -9,15 +9,19 @@
  */
 int main(void)
 {
-	int s;
+	int dig1, dig2;
 
-	for (s = 0; s < 100; s++)
+	for (dig1 = 0; dig1 < 9; dig1++)
 	{
-		putchar((s / 10) + '0');
-		putchar((s % 10) + '0');
-		if (s != 99)
+		for (dig2 = dig1 + 1; dig2 < 10; dig2++)
 		{
-			putchar('.');
+		putchar((dig1 % 10) + '0');
+		putchar((dig2 % 10) + '0');
+
+		if (dig1 = 8 && dig2 = 9)
+			continue;
+
+			putchar(',');
 			putchar(' ');
 		}
 	}
