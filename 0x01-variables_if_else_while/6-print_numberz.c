@@ -9,12 +9,10 @@
 int main(void)
 {
 	int c;
-	
-	c = 23;
-	while (c <= 32)
+
+	for (c = '0'; c <= '9'; c++)
 	{
 		putchar(c);
-		c++;
 	}
 	putchar('\n');
 	return (0);
