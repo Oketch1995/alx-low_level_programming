@@ -16,7 +16,7 @@ int main(void)
 		putchar((d % 10) + '0');
 		if (s != 100)
 		{
-			putchar(',');
+			putchar('.');
 			putchar(' ');
 		}
 	}
