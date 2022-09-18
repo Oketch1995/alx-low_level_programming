@@ -9,26 +9,28 @@
  */
 int main(void)
 {
-	int dig1, dig2;
+	int x;
+	int y;
 
-	for (dig1 = 0; dig1 < 10; dig1++)
+	for (x = 0; x <= 98; x++)
 	{
-		for (dig2 = dig1; dig2 < 10; dig2++)
+		for (y = x + 1; y < 99; y++)
 		{
-		if (dig1 < dig2)
-		{
-
-			printf(dig1);
-			printf(dig2);
-
-			if (dig1 != 8 || (dig1 == 8 && dig2 != 9))
-			{
-				putchar(44);
-				putchar(32);
-			}
-		}
-		}
+			putchar((x / 10) + '0');
+			putchar((x % 10) + '0');
+			putchar(' ');
+			putchar((y / 10) + '0');
+			putchar((y % 10) + '0';
+					if (x == 98 & y == 99)
+					continue;
+					putchar(',');
+					putchar(' ');
+         	}
 	}
-	putchar('\n');
-	return (0);
+					putchar('\n');
+					return (0);
 }
+					
+				
+
+
