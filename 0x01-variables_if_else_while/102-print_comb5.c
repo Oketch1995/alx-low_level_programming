@@ -20,12 +20,12 @@ putchar((c / 10) + '0');
 putchar((c % 10) + '0');
 
 if(b == 98 && c == 99
-		)
+		
 continue;
 putchar(',');
 putchar(' ');
 }
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
