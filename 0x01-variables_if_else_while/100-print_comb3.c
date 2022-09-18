@@ -16,12 +16,9 @@ int main(void)
 	{
 		for (y = x + 1; y < 99; y++)
 		{
-			putchar((x / 10) + '0');
 			putchar((x % 10) + '0');
-			putchar(' ');
-			putchar((y / 10) + '0');
 			putchar((y % 10) + '0');
-					if (x == 98 && y == 99)
+					if (x == 8 && y == 9)
 					continue;
 					putchar(',');
 					putchar(' ');
