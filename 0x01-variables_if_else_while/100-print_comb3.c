@@ -11,18 +11,22 @@ int main(void)
 {
 	int dig1, dig2;
 
-	for (dig1 = 0; dig1 < 9; dig1++)
+	for (dig1 = 0; dig1 < 10; dig1++)
 	{
-		for (dig2 = dig1 + 1; dig2 < 10; dig2++)
+		for (dig2 = dig1; dig2 < 10; dig2++)
 		{
-		putchar((dig1 % 10) + '0');
-		putchar((dig2 % 10) + '0');
+		if (dig1 < dig2)
+		{
 
-		if (dig1 = 8 && dig2 = 9)
-			continue;
+			prin_t(dig1);
+			prin_t2(dig2);
 
-			putchar(',');
-			putchar(' ');
+			if (dig1 != 8 || (dig1 == 8 && dig2 != 9))
+			{
+				putchar(44);
+				putchar(32);
+			}
+		}
 		}
 	}
 	putchar('\n');
