@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <time.h>i
+#include <time.h>
 #include <stdlib.h>
 
 /**
@@ -18,8 +18,8 @@ int main(void)
 		if (dig1 < dig2)
 		{
 
-			prin_t(dig1);
-			prin_t2(dig2);
+			printf(dig1);
+			printf(dig2);
 
 			if (dig1 != 8 || (dig1 == 8 && dig2 != 9))
 			{
