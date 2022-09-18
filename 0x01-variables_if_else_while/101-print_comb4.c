@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - printing
+ * main - Entry point
  * Description - print numbers
  * Return - 0
  */
@@ -30,5 +30,3 @@ putchar(' ');
 }
 }
 }
-
-
