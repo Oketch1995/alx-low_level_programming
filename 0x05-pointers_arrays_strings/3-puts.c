@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * _puts - printing
- * @str - print a string
+ * _puts - printing a string
+ * @str - string to be printed
  * Description: print a string
  * Return: 0
  */
