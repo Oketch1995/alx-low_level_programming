@@ -3,7 +3,8 @@
 
 /**
  * _puts - printing a string
- * @str - string to be printed
+ * @str - string to be used
+ *
  * Description: print a string
  * On success: returns no error
  *
