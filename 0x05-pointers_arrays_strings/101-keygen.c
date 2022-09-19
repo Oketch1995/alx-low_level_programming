@@ -14,9 +14,9 @@ int main(void)
 	while (sum <= 2645)
 	{
 		pass = (rand() % 128);
-		sum _= pass;
+		sum += pass;
 		printf("%c", pass);
 	}
-	printf("%c" 2781 - sum);
+	printf("%c" 2772 - sum);
 	return (0);
 }
