@@ -5,7 +5,7 @@
  * @s: pointer to a character string
  * Return: void
  */
-int _atoi(char *s);
+int _atoi(char *s)
 {
 	int sign;
 	unsigned int num;
