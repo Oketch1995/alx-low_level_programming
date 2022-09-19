@@ -5,7 +5,8 @@
  * _puts - printing a string
  * @str - string to be printed
  * Description: print a string
- * Return: 0
+ * Return: Returns no error
+ *
  */
 void _puts(char *str)
 {
