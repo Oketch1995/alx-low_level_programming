@@ -2,10 +2,9 @@
 #include "main.h"
 
 /**
- * puts2 - prints every other character
- * @str - string
- *
- * Return: Nothing
+ * puts2 - prints every other character of a string.
+ * @str - parameter
+ * Return: notheing
  */
 void puts2(char *str)
 {
