@@ -3,7 +3,7 @@
 
 /**
  * puts2 - prints every other character of a string.
- * @str - parameter
+ * @str: parameter
  * Return: notheing
  */
 void puts2(char *str)
