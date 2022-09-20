@@ -4,4 +4,16 @@
  * _strcpy - copy paste string
  * @dest: destination
  * @src: source
- * Returnuriiiiiiiin
+ * Return: destination
+ */
+char *_strcpy(char *dest, char *src)
+{
+	int velma = 0;
+	while (*(src + velma) != '\0')
+	{
+		*(dest + velma) = *(src + velma);
+			velma++;
+	}
+	*(dest + velma) = '\0';
+	return(dest);
+}
