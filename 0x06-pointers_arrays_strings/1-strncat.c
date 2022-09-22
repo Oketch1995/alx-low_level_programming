@@ -11,7 +11,7 @@ char *_strncat(char *dest, char *src, int n)
 {
 	int maize = 0, h = 0;
 
-	while (dest[mainze++])
+	while (dest[maize++])
 		h++;
 	for (maize = 0; src[maize] && maize < n; maize++)
 		dest[h++] = src[maize];
