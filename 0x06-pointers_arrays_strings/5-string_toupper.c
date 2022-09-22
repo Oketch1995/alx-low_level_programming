@@ -13,9 +13,7 @@ char *string_toupper(char *str)
 	{
 		if (str[velma] >= 'a' && str[velma] <= 'z')
 			str[velma] -= 32;
+		velma++;
 	}
-	velma++;
 	return (str);
 }
-
-
