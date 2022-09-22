@@ -13,7 +13,7 @@ char *_strncat(char *dest, char *src, int n)
 
 	while (dest[mainze++])
 		h++;
-	for (maize = 0; src[mainze] && maize < n; maize++)
+	for (maize = 0; src[maize] && maize < n; maize++)
 		dest[h++] = src[maize];
 	return (dest);
 }
