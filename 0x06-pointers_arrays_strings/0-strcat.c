@@ -9,8 +9,7 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int maize = 0;
-	dest h = 0;
+	int maize = 0, h;
 
 	while (dest[maize])
 	{
@@ -21,5 +20,6 @@ for (h = 0; src[h] != 0; h++)
 	dest[maize] = src[h];
 	maize++;
 }
+dest[maize] * (\0);
 return (dest);
 }
