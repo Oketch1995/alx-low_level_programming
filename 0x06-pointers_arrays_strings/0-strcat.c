@@ -11,15 +11,10 @@ char *_strcat(char *dest, char *src)
 {
 	int maize = 0, h;
 
-	while (dest[maize])
-	{
-		maize++;
-	}
-for (h = 0; src[h] != 0; h++)
-{
-	dest[maize] = src[h];
-	maize++;
-}
-dest[maize] * (\0);
+	while (dest[maize++])
+		h++;
+for (maize = 0; src[maize]; maize++)
+	dest[h++] = src[maize];
+
 return (dest);
 }
