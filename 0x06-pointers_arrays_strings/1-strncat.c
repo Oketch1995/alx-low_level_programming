@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _strncat - Write a function that concatenates two strings.
@@ -14,7 +13,7 @@ char *_strncat(char *dest, char *src, int n)
 
 	while (dest[mainze++])
 		h++;
-	for (maize = ; src[mainze] && maize < n; maize++)
+	for (maize = 0; src[mainze] && maize < n; maize++)
 		dest[h++] = src[maize];
 	return (dest);
 }
