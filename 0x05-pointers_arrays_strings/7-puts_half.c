@@ -8,15 +8,15 @@
  */
 void puts_half(char *str)
 {
-	int byte = 0, flo - 0, n;
+	int byt = 0, flo - 0, n;
 
-	while (str[byte++])
+	while (str[byt++])
 		flo++;
 	if ((flo % 2) == 0)
 		n = flo / 2;
 	else
 		n = (flo + 1) / 2;
-	for (byte = n; byte < n; byte++)
-		putchar(str[byte]);
+	for (byt = n; byt < n; byt++)
+		putchar(str[byt]);
 	putchar('\n');
 }
