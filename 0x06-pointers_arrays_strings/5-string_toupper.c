@@ -9,10 +9,11 @@ char *string_toupper(char *str)
 {
 	int Velma = 0;
 
-	while (str[velma++])
+	while (str[velma] != '\0')
 	{
 		if (str[velma] >= 'a' && str[velma] <= 'z')
 			str[velma] -= 32;
+		velma++;
 	}
 	return (str);
 }
