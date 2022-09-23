@@ -8,12 +8,11 @@
 void rev_string(char *s)
 {
 	int byte = 0, flo = 0;
-	
 	char ch;
-
+	
 	while (s[flo++])
 		byte++;
-		for (flo = byte - 1; flo >= byte / 2; flo--)
+	for (flo = byte - 1; flo >= byte / 2; flo--)
 	{
 		ch = s[flo];
 		s[flo] = s[byte - flo - 1];
