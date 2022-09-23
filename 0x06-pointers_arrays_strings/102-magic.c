@@ -7,12 +7,12 @@
  */
 int main(void)
 {
-	int s;
+	int n;
 	int a[5];
 	int *p;
 
 	a[2] = 1024;
-	p = &s;
+	p = &n;
 
 	*(p + 5) = 98;
 	/* this prints 98\n */
