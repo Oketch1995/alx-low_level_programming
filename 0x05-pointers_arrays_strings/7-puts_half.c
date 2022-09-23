@@ -16,7 +16,7 @@ void puts_half(char *str)
 		n = flo / 2;
 	else
 		n = (flo + 1) / 2;
-	for (byt = n; byt < n; byt++)
+	for (byt = n; byt < flo ; byt++)
 		putchar(str[byt]);
 	putchar('\n');
 }
