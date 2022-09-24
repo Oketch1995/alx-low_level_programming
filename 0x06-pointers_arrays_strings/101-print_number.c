@@ -3,17 +3,18 @@
 /**
  * print_number - prints an integer
  * @n: integer to be printed
+ * Return: nothing
  */
 void print_number(int n)
 {
-	unsigned int dig1 = n;
+	unsigned int y;
 
 	if (n < 0)
 	{
 		_putchar('-');
-		dig1 = -dig1;
+		n *= -1;
 	}
-	if ((dig1 / 10) > 0)
-		print_number(dig1 / 10);
-	_putchar((dig1 % 10) + '0');
+	y = n;
+	if (y / 10)
+		print_number(y / 10);
 }
