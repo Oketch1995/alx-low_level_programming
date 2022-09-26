@@ -14,6 +14,7 @@ unsigned int _strspn(char *s, char *accept)
 	while (*s)
 	{
 		for (b = 0; accept[b]; b++)
+		{
 			if (*s == accept[b])
 			{
 				k++;
@@ -21,8 +22,8 @@ unsigned int _strspn(char *s, char *accept)
 			}
 			else if (accept[b + 1] == '\0')
 				return (k);
+		}
+		s++;
 	}
+	return (k);
 }
-
-
-
