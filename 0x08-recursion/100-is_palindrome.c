@@ -2,17 +2,17 @@
 
 
 /**
- * _length - length of a string
+ * _lenght - length of a string
  * @s: the string whose length is to be determined
  * Return: string length
  */
-int _length(char *s)
+int _lenght(char *s)
 {
 	if (*s == '\0')
 	{
 		return (0);
 	}
-	return (1 + length(s + 1));
+	return (1 + lenght(s + 1));
 }
 /**
  * checkp - check if the string is a palindrome
@@ -48,6 +48,5 @@ return (1);
  */
 int is_palindrome(char *s)
 {
-	return (checkp(0, _length(s) - 1, s));
+	return (checkp(0, _lenght(s) - 1, s));
 }
-
