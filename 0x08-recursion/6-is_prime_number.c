@@ -1,46 +1,36 @@
 #include "main.h"
+#include <stdio.h>
+
+int check_prime(int n, int i);
 
 /**
- * helper - returns 1 or 0
- * @dig1: number being checked
- * @i: posible factor of the number
- * Return: 0 if not prime, 1 if prime
- */
-int helper(int dig1, int i)
-{
-	if (i < dig1)
-	{
-		if (dig1 % i == 0)
-		{
-			return (0);
-		}
-		else
-		{
-			return (helper(dig1, i, 1));
-		}
-		else
-		{
-			return (1);
-		}
-	}
-}
-
-
-/**
- * is_prime_number - function that returns 1
- * if the input integer is a prime number
- * otherwise return 0.
- * @n: number to be checked
- * Return: 0 if not prime and 1 if prime
- */
+  * is_prime_number - Returns if a number is prime
+  * @n: the number to be checked
+  *
+  * Return: integer value
+  */
 int is_prime_number(int n)
 {
+	return (check_prime(n, 1));
+}
+
+/**
+  * check_prime - Check if number is prime
+  * @n: the number to be checked
+  * @i: iterator
+  *
+  * Return: 1 for prime or 0 composite
+  */
+int check_prime(int n, int i)
+{
 	if (n <= 1)
-	{
 		return (0);
-	}
-	else
-	{
-		return (helper(n, 2));
-	}
+
+	if (n % i == 0 && i > 1)
+		return (0);
+
+	if ((n / i) < i)
+		return (1);
+
+	return (check_prime(n, i + 1));
 }
