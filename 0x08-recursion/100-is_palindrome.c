@@ -2,46 +2,52 @@
 
 
 /**
- * _strlen_recursion - size
- * @s: the string to be measured
- * Return: recursion
+ * _length - length of a string
+ * @s: the string whose length is to be determined
+ * Return: string length
  */
-int _strlen_recursion(char *s)
+int _length(char *s)
 {
-	if (!*s)
+	if (*s == '\0')
 	{
 		return (0);
 	}
-	return (1 + _strlen_recursion(++s));
+	return (1 + length(s + 1));
 }
 /**
- * p1 - palindrome
- * @s: pointer to the string
- * @l: position
- * Return: boolena
+ * checkp - check if the string is a palindrome
+ * @i: parameter
+ * @l: the length of the string
+ * @s: the string
+ * Return: return 1 if the string is a palindrom, 0 if not
  */
-int p1(char *s, int l)
+int checkp(int i, int l, char *s)
 {
-if (l < 1)
+if (l > 0)
+{
+if (s[i] == s[l])
+{
+return (checkp(i + 1, l - 1, s));
+}
+else if (s[i] != s[l])
+{
+return (0);
+}
+else
 {
 return (1);
 }
-if (*s == *(s + l))
-{
-return (p1(s + 1, l - 2));
 }
-return (0);
+return (1);
 }
 
 /**
- * is_palindrome - palindrome
+ * is_palindrome - check if a string is a palindrome
  * @s: pointer to the string
- * Return: recursion
+ * Return: return 1 i it is and 0 if not
  */
 int is_palindrome(char *s)
 {
-	int len = _strlen_recursion(s);
-
-	return (p1(s, len - 1));
+	return (checkp(0, _length(s) - 1, s));
 }
 
