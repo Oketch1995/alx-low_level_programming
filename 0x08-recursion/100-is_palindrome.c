@@ -12,7 +12,7 @@ int _lenght(char *s)
 	{
 		return (0);
 	}
-	return (1 + lenght(s + 1));
+	return (1 + _lenght(s + 1));
 }
 /**
  * checkp - check if the string is a palindrome
