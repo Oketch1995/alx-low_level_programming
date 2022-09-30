@@ -2,12 +2,12 @@
 
 
 /**
- * print_times_table - func to print times table with
+ * print_time_table - func to print times table with
  * parameter
  * Return: return nothing
  * @n: integer for the arguement
  */
-void print_times_table(int n)
+void print_time_table(int n)
 {
 	int num, mult, result;
 
