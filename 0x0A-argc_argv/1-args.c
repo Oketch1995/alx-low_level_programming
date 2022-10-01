@@ -5,8 +5,7 @@
 /**
 * main - Prints its name
 * @argc: Arguments count
-* @argv: Argument 
-*
+* @argv: Argument
 * Return: Always 0(success)
 */
 int main(int argc, char *argv[])
