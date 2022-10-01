@@ -4,39 +4,39 @@
 /**
   * main - prints the minimum number of coins to make change.
   * @argc: argument counter.
-  * @argv: argument 
+  * @argv: argument vector.
   * Return: return 1 if error, else return 0.
   */
 int main(int argc, char *argv[])
 {
-	int change, k;
+	int change, num;
 
 	change = 0;
 
 	if (argc == 2)
 	{
-		k = atoi(argv[1]);
-		if (k > 0)
+		num = atoi(argv[1]);
+		if (num > 0)
 		{
-			for (; k >= 25; change++)
+			for (; num >= 25; change++)
 			{
-				k = k - 25;
+				num = num - 25;
 			}
-			for (; k >= 10; change++)
+			for (; num >= 10; change++)
 			{
-				k = k - 10;
+				num = num - 10;
 			}
-			for (; k >= 5; change++)
+			for (; num >= 5; change++)
 			{
-				k = k - 5;
+				num = num - 5;
 			}
-			for (; k >= 2; change++)
+			for (; num >= 2; change++)
 			{
-				k = k - 2;
+				num = num - 2;
 			}
-			for (; k >= 1; change++)
+			for (; num >= 1; change++)
 			{
-				k = k - 1;
+				num = num - 1;
 			}
 		}
 		printf("%d\n", change);
