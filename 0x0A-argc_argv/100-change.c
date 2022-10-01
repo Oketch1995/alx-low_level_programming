@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 /**
   * main - prints the minimum number of coins to make change.
   * @argc: argument counter.
@@ -36,7 +37,7 @@ int main(int argc, char *argv[])
 			}
 			for (; num >= 1; change++)
 			{
-				num = num - 1;
+			num = num - 1;
 			}
 		}
 		printf("%d\n", change);
