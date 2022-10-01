@@ -4,13 +4,12 @@
  * @argc: argument count
  * @argv: argument vector
  * Return: 0 always success
- */
-
+*/
 int main(int argc, char *argv[])
 {
-	int k;
+	int i;
 
-	for (k = 0; k < argc; k++)
-		printf("%s\n", argv[k]);
+	for (i = 0; i < argc; i++)
+		printf("%s\n", argv[i]);
 	return (0);
 }
