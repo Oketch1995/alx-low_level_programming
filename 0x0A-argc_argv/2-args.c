@@ -1,23 +1,22 @@
-#include "main.h"
 #include <stdio.h>
 
+
+
 /**
- * main - a program that prints the name of the programs
- * @argc: Argument count
- * @argv: Argument vector
- * Return: Always 0(success)
-*/
+
+  * main - prints its name, followed by new.
+  * @argc: argument counter.
+  * @argv: argument vector.
+  * Return: zero.
+  */
 int main(int argc, char *argv[])
 {
-	int i = 0;
+	int i;
 
-	if (argc > 0)
+
+	for (i = 0; i < argc; i++)
 	{
-		while (i < argc)
-		{
 		printf("%s\n", argv[i]);
-		i++;
-		}
-	return (0);
 	}
+	return (0);
 }
