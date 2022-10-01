@@ -1,9 +1,6 @@
 #include <stdio.h>
 
-
-
 /**
-
   * main - prints its name, followed by new.
   * @argc: argument counter.
   * @argv: argument vector.
