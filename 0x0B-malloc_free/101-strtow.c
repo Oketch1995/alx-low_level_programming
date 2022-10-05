@@ -50,7 +50,7 @@ char **strtow(char *str)
 			if (str[c] != ' ' && (str[c + 1] == ' ' || str[c + 1] == '\0'))
 			{
 				aout[j] = malloc((c - a1 + 2) * sizeof(char));
-				if (aout[i] == NULL)
+				if (aout[j] == NULL)
 				{
 					ch_free_grid(aout, j);
 					return (NULL);
