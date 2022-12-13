@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * sub - subtract two integers
- * @a: The first integer to be subtracted
- * @b: The second integer to be subtracted
+ * rem - subtract two integers
+ * @a: The first integer
+ * @b: The second integer 
  *
- * Return: The result of the subtraction
+ * Return: The result of the remainder
  */
-int sub(int a, int b)
+int rem(int a, int b)
 {
-return (a - b);
+return (a % b);
 }
