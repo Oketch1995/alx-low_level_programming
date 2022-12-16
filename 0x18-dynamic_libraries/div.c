@@ -1,12 +1,12 @@
-#include "main.h"
+#include "operation.h"
 /**
  * div - product of two integers
  * @a: The first integer 
  * @b: The second integer 
  *
- * Return: The result of the product
+ * Return: The quotient
  */
-int add(int a, int b)
+int div(int a, int b)
 {
 return (a / b);
 }

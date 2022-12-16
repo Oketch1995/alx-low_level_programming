@@ -1,4 +1,4 @@
-#include "main.h"
+#include "operation.h"
 /**
  * sub - difference btwn two integers
  * @a: The first integer to be subtracted
@@ -6,7 +6,7 @@
  *
  * Return: The result of the subtraction
  */
-int add(int a, int b)
+int sub(int a, int b)
 {
 return (a - b);
 }

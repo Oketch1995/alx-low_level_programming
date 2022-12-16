@@ -1,4 +1,4 @@
-#include "main.h"
+#include "operation.h"
 /**
  * rem - subtract two integers
  * @a: The first integer

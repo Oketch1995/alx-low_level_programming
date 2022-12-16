@@ -1,12 +1,12 @@
-#include "main.h"
+#include "operation.h"
 /**
  * mul - product of two integers
  * @a: The first integer to be multiplied
  * @b: The second integer to be multiplied
  *
- * Return: The result of the multiplication
+ * Return: The product
  */
-int add(int a, int b)
+int mul(int a, int b)
 {
 return (a * b);
 }
